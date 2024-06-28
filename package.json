@@ -1,11 +1,17 @@
 {
   "name": "b1",
-  "module": "app/main.ts",
+  "module": "main.ts",
   "type": "module",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@biomejs/biome": "^1.8.3",
+    "@types/bun": "latest",
+    "drizzle-kit": "^0.22.7"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.31.2",
+    "hono": "^4.4.9"
   }
 }
